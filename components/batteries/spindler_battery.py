@@ -12,6 +12,6 @@ class SpindlerBattery():
     def needs_service(self):
         
         # if difference is more than 4, which is service tenure it returns true
-        result =  self.current_date.year - self.last_service_date.year >= 2
+        result =  self.current_date.year - self.last_service_date.year >= 3
         print("SpindlerBattery check returns:", result)
         return result
