@@ -9,7 +9,7 @@ class Car():
         print("INIT CAR INSTANCE")
 
 
-    def needs_service(self):
+    def needs_service(self) -> bool:
         batteryResult = self.battery.needs_service()
         engineResult =  self.engine.needs_service()
         print("Overall service check result:", batteryResult or engineResult)
