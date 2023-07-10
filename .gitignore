@@ -130,3 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/launch.json
+.vscode/settings.json
+assets/Forage-t1-uml.png
+assets/Model Answer - Diagram.pdf
